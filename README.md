@@ -13,7 +13,10 @@ This script, however, helps list out people you're currently following, which al
 
 Someone may find it useful, I hope.
 
-TIP:
+TIP:<br/>
 If you're not aware of API calls, don't worry. You only require an access token, which you can instantly generate via https://developers.facebook.com/toosl/explorer
 
 There, you can find a "Get Token" button, click it, a dialog appears. Click "Extended permission" (below "Select Permissions", tick 'read_stream', and click "Get Access Token". Proceed through following dialogs, and a token appears right in the "Access Token" field.
+
+<b>Usage:</b>
+python followings.py &lt;access_token&gt;
